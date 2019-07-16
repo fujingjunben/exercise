@@ -34,12 +34,14 @@ public class SortTemplate {
         return true;
     }
 
-    public static void main(String[] args){
+    public void run(){
         String[] a = StdIn.readAllStrings();
-        SortTemplate template = new SortTemplate();
-        template.sort(a);
-        assert template.isSorted(a);
-        template.show(a);
+        StdOut.println("排序前");
+        this.show(a);
+        this.sort(a);
+        assert this.isSorted(a);
+        StdOut.println("排序后");
+        this.show(a);
     }
 }
 

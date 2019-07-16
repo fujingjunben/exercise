@@ -17,8 +17,7 @@ public class Insertion extends SortTemplate {
 
 
     public static void main (String[] args){
-        In in = new In();
-        String[] a = in.readAllStrings();
+        String[] a = StdIn.readAllStrings();
         Insertion insertion = new Insertion();
         insertion.show(a);
         insertion.sort(a);
