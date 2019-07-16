@@ -1,8 +1,9 @@
 package com.lhk.algs4;
-import edu.princeton.cs.algs4.In;
 
 /**
  * 选择排序
+ * 2019-07-16
+ * lhk
  */
 public class Selection extends SortTemplate {
     @Override
